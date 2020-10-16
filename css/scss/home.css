@@ -1,0 +1,236 @@
+/*=====================================*/
+/*  Start Portfolio Title */
+/*=====================================*/
+.Portfolio-Title {
+  background-image: url(../images/title_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+.Portfolio-Title::before {
+  position: absolute;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  content: '';
+  z-index: -1;
+  opacity: .6;
+}
+
+.Portfolio-Title .title {
+  padding: 170px 0 100px;
+}
+
+.Portfolio-Title .title h1 {
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 1px;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.Portfolio-Title .title p {
+  color: #fff;
+  text-align: center;
+}
+
+.Portfolio-Title .title p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Portfolio-Title .title p a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*=====================================*/
+/*  End Portfolio Title */
+/*=====================================*/
+/*=====================================*/
+/*  Start Portfolio datiels */
+/*=====================================*/
+.Portfolio-datiels {
+  padding: 80px 0 0 0;
+}
+
+.Portfolio-datiels .content {
+  position: relative;
+  width: 550px;
+  height: 590px;
+  overflow: hidden;
+}
+
+.Portfolio-datiels .content .part img {
+  width: 100%;
+}
+
+.Portfolio-datiels .content .slide {
+  position: absolute;
+  left: -550px;
+  width: 550px;
+  height: 590px;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0.5s;
+}
+
+@-webkit-keyframes slide {
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes slide {
+  100% {
+    left: 0;
+  }
+}
+
+.Portfolio-datiels .content .slideOut {
+  position: absolute;
+  left: 0px;
+  width: 550px;
+  height: 590px;
+  -webkit-animation: slideOut 0.5s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slideOut 0.5s forwards;
+  animation-delay: 0.5s;
+}
+
+@-webkit-keyframes slideOut {
+  100% {
+    left: 550px;
+  }
+}
+
+@keyframes slideOut {
+  100% {
+    left: 550px;
+  }
+}
+
+.Portfolio-datiels .datiles {
+  padding-top: 0;
+  padding-left: 35px;
+}
+
+.Portfolio-datiels .datiles p {
+  margin-bottom: 15px;
+  color: #777;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.Portfolio-datiels .datiles .project-info {
+  line-height: 33px;
+  margin-top: 40px;
+}
+
+.Portfolio-datiels .datiles .project-info p {
+  margin-bottom: 15px;
+}
+
+.Portfolio-datiels .datiles .project-info p strong {
+  font-size: 17px;
+}
+
+.Portfolio-datiels .datiles .project-info p strong i {
+  margin-right: 5px;
+}
+
+/*=====================================*/
+/*  End Portfolio datiels */
+/*=====================================*/
+/*=====================================*/
+/*  Start Title Here */
+/*=====================================*/
+.title-here {
+  padding-top: 40px;
+}
+
+.title-here h3 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+
+.title-here p {
+  margin-bottom: 15px;
+}
+
+/*=====================================*/
+/*  End Title Here  */
+/*=====================================*/
+/*=====================================*/
+/*  Strat Portfolio Bottom  */
+/*=====================================*/
+.portfolio-bottom {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.portfolio-bottom .social {
+  list-style: none;
+}
+
+.portfolio-bottom .social li {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  line-height: 45px;
+  text-align: center;
+  border: 1px solid #ddd;
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #777;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.portfolio-bottom .social li:hover {
+  background: #108af9 none repeat scroll 0 0;
+  border: 1px solid #108af9;
+  color: #fff;
+}
+
+.portfolio-bottom .btn-light-bg {
+  background: #108af9 none repeat scroll 0 0;
+  border: 2px solid #108af9;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.1);
+  color: #fff;
+  padding: 7px 30px;
+  display: inline-block;
+  text-transform: capitalize;
+  font-weight: 400;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.2s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  font-size: 14px;
+}
+
+/*=====================================*/
+/*  End Portfolio Bottom  */
+/*=====================================*/
+/*# sourceMappingURL=home.css.map */
